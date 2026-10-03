@@ -3,6 +3,8 @@ from ortools.linear_solver import pywraplp
 solver = pywraplp.Solver.CreateSolver("SCIP")
 
 x = solver.IntVar(0, 10, "x")
+
+x = solver.IntVar(0, 10, "x")
 y = solver.IntVar(0, 10, "y")
 
 # x + 2y <= 14
